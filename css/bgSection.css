@@ -1,0 +1,58 @@
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.banner-bottom,.special,.w3-agile-testimonial,.subscribe,.agileits-about-top,.w3-agileits-choose-grid,.team,.shared-grid,.cloud-grid,.vpn-grid,.w3-best-services,.w3ls-featured-services,.faq,.registration,.codes,.typography ,.contact{
+    padding: 1em 0;
+}
+
+.w3-agileits-choose-grid{
+    background: url(../images/ab.png) no-repeat 0px 0px;
+    background-size: cover;	
+}
+
+
+
+.w3-banner-bottom-heading{
+	text-align:center;
+}
+
+.w3-agileits-choose-grid{
+    text-align: center;
+}
+
+/*.agile-choose-grids{*/
+	/*margin:4em 0 0 0;*/
+/*}*/
+
+/*.agile-choose-grids {*/
+    /*margin: 2em 0 0 0;*/
+/*}*/
+
+/*.choose-info-top:nth-child(2){*/
+	/*margin:1em 0;*/
+/*}*/
+/*.choose-info-grid{*/
+    /*background: #333333;*/
+    /*padding: 1em;*/
+/*}*/
+
+
+span.jarh1{
+    color: whitesmoke;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+
+span.jarh2{
+    color: whitesmoke;
+}
+
+.middleSec{
+    border-left: whitesmoke 2px solid;
+    border-right: whitesmoke 2px solid;
+}

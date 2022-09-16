@@ -1,0 +1,51 @@
+<?php
+// Include the database configuration file
+require_once 'dbConfig.php';
+
+// If file upload form is submitted
+$status = $statusMsg = '';
+if(isset($_POST["submit"])){
+
+    $status = 'error';
+    if(!empty($_FILES["image"]["name"]) && $_POST['des']!='' && $_POST['title']!='') {
+        // Get file info
+        $fileName = basename($_FILES["image"]["name"]);
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+
+        // Allow certain file formats
+        $allowTypes = array('jpg','png','jpeg','gif');
+        if(in_array($fileType, $allowTypes)){
+            $image = $_FILES['image']['tmp_name'];
+            $imgContent = addslashes(file_get_contents($image));
+            $des = $_POST['des'];
+            $title = $_POST['title'];
+
+            // Insert image content into database
+            $insert = $db->query("INSERT into images (title, image, des) VALUES ('$title','$imgContent', '$des')");
+
+            if($insert){
+                $status = 'success';
+                $statusMsg = "File uploaded successfully.";
+            }else{
+                $statusMsg = "File upload failed, please try again.";
+            }
+        }else{
+            $statusMsg = 'Sorry, only JPG, JPEG, PNG, & GIF files are allowed to upload.';
+        }
+    }else{
+        $statusMsg = 'Please Enter the details to add Correctly.';
+    }
+}
+
+// Display status message
+echo $statusMsg;
+?>
+
+<html>
+<body>
+<br><br>
+<a href="adminEdittor.php"><<< Back To Editor</a><br>
+<a href="../index.html"><<< Homepage</a>
+</body>
+</html>
+

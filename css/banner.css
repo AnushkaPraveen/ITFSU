@@ -1,0 +1,691 @@
+/**************** extend css start ****************/
+/**************** extend css start ****************/
+/**************** common css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Anton|Oswald:300,400,500,600&display=swap");
+/* line 3, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_common.scss */
+body {
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+/* line 24, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_1 {
+    display: inline-block;
+    padding: 13.5px 30px;
+    border-radius: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #003366;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    background-size: 200% auto;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    
+}
+
+/* line 37, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_1:hover {
+    background-color: #00004d;
+    color: #fff !important;
+    animation: shadow-pulse 1s infinite;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+.btn_1:focus{
+    outline: none;
+}
+
+
+
+@media (max-width: 576px) {
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 24, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+}
+
+/* line 58, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_2 {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    line-height: 17px;
+}
+
+/* line 67, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_2:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border: 2px solid #ff0000;
+}
+
+/* line 73, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_4 {
+    background-color: #ff0000;
+    padding: 3.5px 21px;
+    background: #ff663b;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 2px solid transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #fff;
+}
+
+/* line 82, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.btn_4:hover {
+    background: rgba(255, 102, 59, 0.8);
+    color: #fff;
+}
+
+/*=================== custom button rule start ====================*/
+/* line 90, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 54px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #edeff2;
+    text-transform: uppercase;
+    background-color: #ff0000;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    /* line 90, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+    .button {
+        font-size: 13px;
+        padding: 9px 24px;
+    }
+}
+
+/* line 109, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button:hover {
+    color: #fff;
+}
+
+/* line 114, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button-link {
+    letter-spacing: 0;
+    color: #3b1d82;
+    border: 0;
+    padding: 0;
+}
+
+/* line 120, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button-link:hover {
+    background: transparent;
+    color: #3b1d82;
+}
+
+/* line 126, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button-header {
+    color: #fff;
+    border-color: #edeff2;
+}
+
+/* line 130, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button-header:hover {
+    background: #b8024c;
+    color: #fff;
+}
+
+/* line 136, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_button.scss */
+.button-contactForm {
+    color: #fff;
+    border-color: #edeff2;
+    padding: 12px 25px;
+}
+
+/* End Main Button Area css
+============================================================================================ */
+
+/**************menu part start*****************/
+/* line 2, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(128,128,128,0.8);
+
+}
+
+/* line 8, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .navbar-brand {
+    padding: 0rem !important;
+    background-image: url(../images/unionLogo.png);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 90px;
+    text-align: center;
+    line-height: 120px;
+    margin-top: -1px;
+
+
+}
+
+@media (max-width: 991px) {
+    /* line 8, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .navbar-brand {
+        width: 80px;
+        height: 90px;
+        line-height: 70px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 8, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .navbar-brand {
+        width: 90px;
+        height: 100px;
+        line-height: 80px;
+    }
+}
+
+/* line 28, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .navbar-brand img {
+    max-width: 82px;
+}
+
+@media (max-width: 991px) {
+    /* line 28, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .navbar-brand img {
+        max-width: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 28, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .navbar-brand img {
+        max-width: 70px;
+    }
+}
+
+/* line 39, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .navbar {
+    padding: 0px;
+}
+
+/* line 42, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .navbar-toggler {
+    position: relative;
+    z-index: 1;
+}
+
+/* line 47, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .navbar-toggler-icon {
+    /*background-image: url(../images/menu_icon.png);*/
+}
+
+/* line 50, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .main-menu-item {
+    text-align: right;
+    justify-content: right;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 50, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .main-menu-item {
+        padding-left: 25px;
+    }
+}
+
+/* line 57, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link {
+    color: #fff;
+    /* nav bar font size */
+    font-size: 20px;
+    padding: 30px 24px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 57, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .main-menu-item ul li .nav-link {
+        padding: 0px 16px;
+    }
+}
+
+/* line 66, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link:hover {
+    color: #ee390f;
+}
+
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.main_menu .main-menu-item ul .btn_1 {
+    color: #fff;
+    font-size: 14px;
+    padding: 11.5px 33px;
+    margin-left: 41px;
+}
+
+/* line 83, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.dropdown-menu {
+    border: 0px solid rgba(0, 0, 0, 0.15) !important;
+    background-color: #fafafa;
+}
+
+/* line 89, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.dropdown .dropdown-menu {
+    transition: all 0.5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1, 0);
+    display: block;
+}
+
+/* line 95, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 9px 18px !important;
+    color: #000 !important;
+    text-transform: capitalize;
+}
+
+/* line 100, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ff0000 !important;
+}
+
+/* line 106, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.dropdown:hover .dropdown-menu {
+    transform: scale(1);
+}
+
+@media (max-width: 991px) {
+    /* line 114, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .navbar-collapse ul li .nav-link {
+        color: #000 !important;
+    }
+    /* line 121, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    /* line 124, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .navbar-collapse {
+        z-index: 9999 !important;
+        position: absolute;
+        left: 0;
+        top: 71px;
+        width: 100%;
+        background-color: #fff;
+        text-align: center !important;
+    }
+    /* line 134, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .main-menu-item {
+        text-align: left !important;
+    }
+    /* line 136, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item {
+        padding: 5px 15px !important;
+    }
+    /* line 138, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item a {
+        padding: 5px 15px !important;
+    }
+    /* line 143, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .navbar-nav {
+        align-items: start !important;
+    }
+    /* line 147, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .dropdown .dropdown-menu {
+        transform: scale(1, 0);
+        display: none;
+        margin-top: 10px;
+    }
+    /* line 153, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .dropdown:hover .dropdown-menu {
+        transform: scale(1);
+        display: block;
+        color: #ff0000;
+    }
+    /* line 159, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+    .dropdown .dropdown-item:hover {
+        color: #ff0000 !important;
+    }
+}
+
+/* line 165, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.menu_fixed {
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    background-color: #ff0000;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+}
+
+/* line 172, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.menu_fixed .btn_1 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* line 177, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.menu_fixed ul li .nav-link:hover {
+    color: #fff !important;
+}
+
+/* line 183, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.menu_fixed .navbar-brand {
+    height: 90px;
+    line-height: 70px;
+    background-image: none;
+}
+
+/* line 187, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_menu.scss */
+.menu_fixed .navbar-brand img {
+    max-width: 70px;
+}
+
+/**************** banner part css start ****************/
+/* line 2, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part {
+
+    /*background-image: url(../images/banner_bg.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* line 2, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+/*.banner_part2 {*/
+
+    /*background-image: url(../images/banner_bg.gif);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+
+/*}*/
+
+/* line 9, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0a0a0a;
+    /* Old browsers */
+    background: -moz-linear-gradient(right, rgba(10, 10, 10, 0.9) 0%, rgba(50, 50, 50, 0.2) 100%);
+    background: -webkit-linear-gradient(right, rgba(10, 10, 10, 0.9) 0%, rgba(50, 50, 50, 0.2) 100%);
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.9) 0%, rgba(50, 50, 50, 0.2) 100%);
+    z-index: -1;
+}
+
+
+
+/* line 23, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text {
+    opacity: 1;
+    display: table;
+    width: 100%;
+    height: 900px;
+}
+
+/* line 27, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text .banner_text_iner {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+@media (max-width: 991px) {
+    /* line 23, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text {
+        height: 750px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 23, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text {
+        height: 700px;
+    }
+}
+
+/* line 38, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text p {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 1;
+}
+
+/* line 46, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text p:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -12px;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    /* line 46, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text p:after {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+/* line 61, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 64px;
+    line-height: 120px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+@media (max-width: 576px) {
+    /* line 61, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 61, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 61, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 61, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+}
+
+/* line 89, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_banner.scss */
+.banner_part .banner_text h1 span {
+    color: #ff0000;
+}
+
+
+/* line 85, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+b,
+sup,
+sub,
+u,
+del {
+    color: #ff0000;
+}
+
+/* line 93, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h1 {
+    font-size: 36px;
+}
+
+/* line 97, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h2 {
+    font-size: 30px;
+}
+
+/* line 101, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h3 {
+    font-size: 24px;
+}
+
+/* line 105, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h4 {
+    font-size: 18px;
+}
+
+/* line 109, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h5 {
+    font-size: 16px;
+}
+
+/* line 113, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h6 {
+    font-size: 14px;
+}
+
+/* line 117, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2em;
+}
+
+/* line 127, /Applications/MAMP/htdocs/palash/cl/august/200 FitFloss Fitness/fitfloss html/sass/_elements.scss */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    color: #828bb2;
+}
+
+h1.head1{
+-webkit-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+transition: 1s ease-in-out;
+}
+
+h1.head1:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform: translate(1.5em,0);
+    -moz-transform: translate(1.5em,0);
+    -o-transform: translate(1.5em,0);
+    -ms-transform: translate(1.5em,0);
+    transform: translate(1.5em,0);
+}
+
+
+p.head2{
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    }
+    
+p.head2:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        -webkit-transform: translate(1em,0);
+        -moz-transform: translate(1em,0);
+        -o-transform: translate(1em,0);
+        -ms-transform: translate(1em,0);
+        transform: translate(1em,0);
+    }
+/*----------------------------------*/
+
+.carousel .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url("../images/banner_bg.png");
+}
+
+/*.carousel .carousel-item:nth-of-type(2) {*/
+    /*background-image: url("../images/banner_bg3.png");*/
+/*}*/
+
+/*.carousel .carousel-item:last-of-type {*/
+    /*background-image: url("../images/banner_bg2.png");*/
+/*}*/
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
